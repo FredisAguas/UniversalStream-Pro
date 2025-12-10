@@ -1,21 +1,26 @@
 {
   "name": "UniversalStream Pro",
   "short_name": "UniversalStream",
-  "start_url": ".",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "description": "A robust, universal video downloader and media manager.",
+  "categories": ["utilities", "multimedia"],
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/3938/3938028.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "https://cdn-icons-png.flaticon.com/512/3938/3938028.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
